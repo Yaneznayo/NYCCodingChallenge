@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  SchoolsTableViewCell.h
 //  ObjCNYCCodingChallenge
 //
 //  Created by Christopher Pung on 11/3/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface SchoolsTableViewCell : UITableViewCell
 
 @end
+
+NS_ASSUME_NONNULL_END
